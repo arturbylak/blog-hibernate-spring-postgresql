@@ -21,7 +21,7 @@ public class VersionController {
 
     @RequestMapping(value = "/version")
     public String getVersion() {
-        LOG.info("Getting version");
+        LOG.info("Getting version.");
         return versionService.getVersion();
     }
 }
